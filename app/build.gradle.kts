@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    buildFeatures.viewBinding = true
     namespace = "com.example.firebasefirestoremvvmcrud"
     compileSdk = 34
 
