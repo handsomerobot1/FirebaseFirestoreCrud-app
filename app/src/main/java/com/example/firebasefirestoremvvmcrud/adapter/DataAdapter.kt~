@@ -39,7 +39,7 @@ class DataAdapter(private var data:List<Data>,
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_list,parent,false)
-     return ViewHolder(view)
+     return viewHolder(view)
     }
 
     override fun getItemCount(): Int {
